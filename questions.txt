@@ -1,0 +1,15 @@
+Questions
+
+1) A client hands you a very wordy two-page Microsoft Word document and insists that the content must be converted to HTML and go on one particular screen in a website that’s formatted for the size of an iPad screen. You and your supervisor agree that there’s no way the entire content can fit on the screen at once and still be legible. What are some alternatives you might suggest to the client?
+
+2) You are creating an HTML page from scratch and you’ve encountered a problem where the CSS you’ve written and tested on your laptop is not working properly on a mobile device like an iPhone or an iPad. Give us some insight about how you might go about research and solving this problem, what resources would you use? What order? What would your process look like for solving the bug?
+
+Programming Test
+
+Create a simple HTML and Javascript (no PHP or Node) web page with API data from http://trakt.tv — the API documentation can be found here (https://trakt.tv/api-docs)
+
+What we would like to see is a page that gets the Top 10 currently trending TV shows and displays them in a list or grid. The data should reflect the live list of shows found at https://trakt.tv/shows
+
+You can style the list however you like, of course, bonus points for professionalism and creativity. You don’t need to design an entire interface around the list, just focus on the list itself. The API may return more data than what appears on the example URL I provided. Use it or discard it at your discretion.
+
+Feel free to add comments to your code to explain your style and logical choices.
