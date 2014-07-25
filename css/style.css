@@ -2,3 +2,87 @@
  * Xcenda Programming Test
  * Tatiana Kerick
 **/
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background: url(bg.png);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#header {
+	background-color: rgba(34, 61, 72, 0.5); 
+	padding: 10px 0 8px 10%;
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+
+#wrapper {
+	background-color: rgba(34, 61, 72, 0.3); 
+	width: 90%;
+	margin-left: 5.5%;	
+}
+
+.questions {
+	padding-bottom: 30px;
+}
+
+.questions h1 {
+	padding: 20px 0 20px 30px;
+}
+
+.question {
+	width: 500px;
+	float: left;
+	padding: 30px 30px 50px 80px;
+}
+
+.answer {
+	background-color: rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+	margin: 5px 0 5px 0;
+	padding: 5px;
+	width: 400px;
+}
+
+.answer p {
+	padding: 5px 0 5px 0;
+}
+
+#traktList {
+	background-color: rgba(34, 61, 72, 0.3); 
+	width: 60%; /*padding effecting the width*/
+	margin-left: 5.5%;
+	margin-top: 20px; 	
+	padding: 20px 0 50px 30%;
+}
+
+#traktList h1 {
+	padding: 10px 0 10px 45px;
+}
+
+.showList {
+	font-size: 18px;
+	width: 400px;
+}
+
+.showList li {
+	padding: 5px 0 5px 10px;
+}
+
+.showList li:nth-child(odd) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+

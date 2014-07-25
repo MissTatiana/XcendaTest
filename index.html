@@ -10,8 +10,80 @@
 </head>
 <body>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<div id="header">
+	<h1>Xcenda Programming Test</h1>
+	<h3>Tatiana Kerick</h3>
+</div>
 
+<div id="wrapper">
+	<div class="questions">
+		<h1>Questions</h1>
+
+		<div class="question">
+			<p>
+				1) A client hands you a very wordy two-page Microsoft Word document and insists that the content must be converted to HTML and go on one particular screen in a website that's formatted for the size of an iPad screen. You and your supervisor agree that there's no way the entire content can fit on the screen at once and still be legible. What are some alternatives you might suggest to the client?
+			</p>
+		</div>
+
+		<div class="answers">
+			<div class="answer">
+				<h4>Solution 1</h4>
+				<p>
+					Suggest editing the content to filter out filler words and make more digestable for the web.
+				</p>
+			</div>
+
+			<div class="answer">
+				<h4>Solution 2</h4>
+				<p>
+					Take advantage of setting divs to scroll to include all of the content.
+				</p>
+			</div>
+
+			<div class="answer">
+				<h4>Solution 3</h4>
+				<p>
+					Include 'see more' links to toggle visability of addition content
+				</p>
+			</div>
+		</div>
+	</div><!-- questions -->
+
+	<div class="questions">
+		<div class="question">
+			<p>
+				2) You are creating an HTML page from scratch and you've encountered a problem where the CSS you've written and tested on your laptop is not working properly on a mobile device like an iPhone or an iPad. Give us some insight about how you might go about research and solving this problem, what resources would you use? What order? What would your process look like for solving the bug?
+			</p>
+		</div>
+
+		<div class="answer">
+			<p>1.) Make sure&lt;meta name="viewport" content="width=device-width" /&gt; is included in the html document</p> 
+
+			<p>2.) Check to see if the CSS is being included properly</p>
+
+			<p>3.) Run the code through a CSS Lint filter to check for errors/missing semi colons</p>
+
+			<p>4.) Make sure the media queries are set to the appropriate size in order to respond on changing platforms</p>
+
+			<p>5.) Make sure the browsers on the different platforms are up to date.</p>
+
+			<p>6.) Search Stack-overflow to possible solutions</p>	
+
+			<p>7.) Try running the CSS in separate <code><links></code> based on the size of the platform</p>
+
+			<p>8.) When in doubt, use jQuery to launch new CSS scripts when the width of the browser changes.</p> 
+		</div>
+	</div><!-- questions -->
+</div><!-- wrapper -->
+
+<div id="traktList">
+	<h1>Top 10 Trending Shows</h1>
+	<ul class="showList">
+	</ul>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

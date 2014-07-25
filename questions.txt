@@ -1,6 +1,10 @@
 Questions
 
 1) A client hands you a very wordy two-page Microsoft Word document and insists that the content must be converted to HTML and go on one particular screen in a website that’s formatted for the size of an iPad screen. You and your supervisor agree that there’s no way the entire content can fit on the screen at once and still be legible. What are some alternatives you might suggest to the client?
+	-Go re-write the content to take out filler words, make more digestable for the web
+	-Take advantages of css/jqeury sliders to slim down cotent.
+	-Put content in scrolling divs
+	-Include see more links that toggle the visiability of additional content
 
 2) You are creating an HTML page from scratch and you’ve encountered a problem where the CSS you’ve written and tested on your laptop is not working properly on a mobile device like an iPhone or an iPad. Give us some insight about how you might go about research and solving this problem, what resources would you use? What order? What would your process look like for solving the bug?
 
@@ -13,3 +17,13 @@ What we would like to see is a page that gets the Top 10 currently trending TV s
 You can style the list however you like, of course, bonus points for professionalism and creativity. You don’t need to design an entire interface around the list, just focus on the list itself. The API may return more data than what appears on the example URL I provided. Use it or discard it at your discretion.
 
 Feel free to add comments to your code to explain your style and logical choices.
+
+
+-Doesnt support CORS - cross origin resource sharing for anything, but domains can be added to their 'Access-Control-Allow-Origin' header if a support ticket is opened, requesting it. 
+	-get it on a domain and get that approved
+
+	--is this what you wanted me to do? Can't work off domain (localhost)
+
+
+
+
